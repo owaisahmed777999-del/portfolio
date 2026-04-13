@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer | Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: #0a0a0a; color: #e5e7eb; font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; padding: 60px 20px; }
+        
+        header { margin-bottom: 50px; }
+        h1 { font-size: 3.5rem; font-weight: 800; color: #fff; margin-bottom: 10px; }
+        .highlight { color: #3b82f6; }
+        .sub-text { font-size: 1.25rem; color: #9ca3af; }
+
+        h2 { font-size: 1.5rem; color: #fff; border-bottom: 1px solid #374151; padding-bottom: 10px; margin: 40px 0 20px; }
+        
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .card { background: #171717; padding: 25px; border-radius: 12px; border: 1px solid #262626; }
+        .card h3 { color: #60a5fa; margin-bottom: 10px; font-size: 1.1rem; }
+        .card p { font-size: 0.95rem; color: #a3a3a3; }
+
+        .tags { display: flex; flex-wrap: wrap; gap: 10px; }
+        .tag { background: #262626; padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+
+        .cta { background: linear-gradient(135deg, #2563eb, #4f46e5); padding: 40px; border-radius: 16px; text-align: center; margin-top: 50px; }
+        .cta h2 { border: none; margin-top: 0; font-size: 2rem; }
+        .cta-btn { display: inline-block; background: #fff; color: #000; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; margin-top: 20px; }
+
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 2.5rem; } }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>I'm <span class="highlight">[Afham Ahmed]</span></h1>
+            <p class="sub-text">Full Stack Web Developer specialized in building high-performance web applications and fixing complex bugs.</p>
+        </header>
+
+        <section>
+            <h2>Technical Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Web Optimization</h3>
+                    <p>Increasing Core Web Vitals and PageSpeed scores to 90+ for better SEO ranking.</p>
+                </div>
+                <div class="card">
+                    <h3>Bug Fixing & Security</h3>
+                    <p>Resolving critical PHP/JS errors and securing websites from malware.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tech Stack</h2>
+            <div class="tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">WordPress</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">API Integration</span>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready to start a project?</h2>
+            <p>Available for freelance opportunities and remote roles.</p>
+            <a href="https://wa.me/03112974518" class="cta-btn">Message on WhatsApp</a>
+        </section>
+
+        <footer style="text-align: center; margin-top: 60px; color: #4b5563; font-size: 0.8rem;">
+            &copy; 2026 Developed by [Afham Ahmed] | Karachi, PK
+        </footer>
+    </div>
+
+</body>
+</html>
